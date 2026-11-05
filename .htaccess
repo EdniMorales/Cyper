@@ -1,0 +1,9 @@
+
+RewriteEngine On
+
+# Si no existe, no reescribir
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Enviar todas las rutas al enrutador
+RewriteRule ^(.*)$ routes/routes.php [QSA,L]

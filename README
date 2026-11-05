@@ -1,0 +1,57 @@
+ESTRUCTURA DEL PROYECTO
+
+cypher/
+│
+├── config/
+│   ├── auths.php
+│   ├── dataRoot.php
+│   └── resourses.php
+│
+├── core/
+│   ├── controllers/
+│   │   ├── dashboard/
+│   │   ├── login/
+│   │   └── reports/
+│   │
+│   ├── models/
+│   │   ├── dashboard/
+│   │   ├── login/
+│   │   └── reports/
+│   │
+│   └── views/
+│       ├── dashboard/
+│       ├── login/
+│       └── reports/
+│
+├── db/
+│   ├── .env
+│   ├── connection.php
+│   └── crypt.php
+│
+├── errors/
+│   ├── auth/
+│   │   └── errorAuth.php
+│   │
+│   ├── error/
+│   │   ├── 403.php
+│   │   ├── 404.php
+│   │   ├── 418.php
+│   │   ├── 500.php
+│   │   └── 502.php
+│   │
+│   └── lost/
+│       └── errorLostRoute.php
+│
+├── helpers/
+│   └── tools.php
+│
+├── routes/
+│   └── routes.php
+│
+├── styles/
+│   ├── elementals.css
+│   └── styles1.css
+│
+├── .gitignore
+├── .htaccess
+└── index.php
