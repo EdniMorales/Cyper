@@ -20,3 +20,5 @@ require_once __DIR__ . '/helpers/tools.php';
 // =====================================================
 
 require_once __DIR__ . '/routes/routes.php';
+
+exit;

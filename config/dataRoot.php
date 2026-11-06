@@ -1,3 +1,3 @@
 <?php
 // Ruta rais del proyecto
-define('BASE_URL', 'http://localhost/');
+define('BASE_URL', 'http://localhost/cypher/');

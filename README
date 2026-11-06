@@ -20,6 +20,7 @@ cypher/
 │   │
 │   └── views/
 │       ├── dashboard/
+│       │   └── main.html
 │       ├── login/
 │       └── reports/
 │
@@ -43,6 +44,7 @@ cypher/
 │       └── errorLostRoute.php
 │
 ├── helpers/
+│   ├── routeErrors.php
 │   └── tools.php
 │
 ├── routes/
