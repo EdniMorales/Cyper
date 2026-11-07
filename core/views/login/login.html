@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de Sesion</title>
+    </head>
+    <body>
+        <h1>¡Hola, Bienvenido al inicio de sesion!</h1>
+        <p>Este es el contenido visible de la página.</p>
+        <button onclick="lanzar(418)">Iniciar sesion</button>
+
+        <script>
+            async function lanzar(codigoError) {
+                try {
+                    // helper pasando el parámetro
+                    window.location.href =
+                    `./home`;
+                } catch (error) {
+                    console.error("Error en la petición:", error);
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -10,18 +10,23 @@ cypher/
 ├── core/
 │   ├── controllers/
 │   │   ├── dashboard/
+│   │   │   └── main.js
 │   │   ├── login/
+│   │   │   └── login.js
 │   │   └── reports/
 │   │
 │   ├── models/
 │   │   ├── dashboard/
+│   │   │   └── main.php
 │   │   ├── login/
+│   │   │   └── login.php
 │   │   └── reports/
 │   │
 │   └── views/
 │       ├── dashboard/
 │       │   └── main.html
 │       ├── login/
+│       │   └── login.html
 │       └── reports/
 │
 ├── db/

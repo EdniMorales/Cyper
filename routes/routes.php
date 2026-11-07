@@ -83,11 +83,11 @@ if ($error >= 400) {
 switch ($url) {
 
     case '':
-        require_once __DIR__ . '/../core/views/dashboard/main.html';
+        require_once __DIR__ . '/../core/views/login/login.html';
         break;
 
-    case 'productos':
-        require_once __DIR__ . '/../core/views/productos.php';
+    case 'home':
+        require_once __DIR__ . '/../core/views/dashboard/main.html';
         break;
 
     case 'contacto':
